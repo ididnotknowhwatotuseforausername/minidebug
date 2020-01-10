@@ -13,6 +13,7 @@ unsigned int __GetCurrentLine(
     unsigned int Line
 );
 
+// Output to the default hConsole in this format: "[MyFile.cpp @ Myline]: Message"
 void DebugCout(
     const char* Message,
     const char* FIleName,
